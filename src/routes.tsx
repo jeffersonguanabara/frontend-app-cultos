@@ -8,8 +8,8 @@ import ListarPessoas from './pages/ListarPessoas';
 const Routes = () => {
   return (
     <BrowserRouter>
-      <Route component = { Home } path="/" exact />
-      <Route component = { ListarPessoas } path="/lista" />
+      <Route component = { Home } path="https://app-cultos.herokuapp.com/" exact />
+      <Route component = { ListarPessoas } path="https://app-cultos.herokuapp.com/lista" />
     </BrowserRouter>
   );
 }
